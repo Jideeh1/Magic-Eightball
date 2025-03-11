@@ -1,3 +1,9 @@
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +13,7 @@
     letter-spacing: 3px;
     font-weight: 100;
     transition: all .2s ease-in-out;
+    text-shadow: 3px 1px 5px #00000050;
 }
 
 h1 {
@@ -129,4 +136,50 @@ textarea:focus, input:focus{
     background: transparent;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+@media (max-width:425px) {
+
+    h1 {
+        font-size: 20px;
+    }
+    .eightball {
+        width: 35vh;
+        height: 45vh;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .text {
+        padding: 10px 0px;
+        
+        span {
+            font-size: 12px;
+            display: inline-block;
+            vertical-align: middle;
+            padding-top: 7px;
+        }
+        .choices {
+            gap: 20px;
+            font-size: 20px;
+        }
+    }
+    
+    input {
+        font-size: 6px;
+        height: 3%;
+        width: 90%;
+    }
+
+    .actual_eball {
+        width: 230px;
+        height: 230px;
+    }
+
+    .answer_text {
+        font-size: 7px;
+        line-height: 10px;
+    }
 }
