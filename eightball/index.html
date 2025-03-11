@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eight Ball</title>
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2013/07/13/10/51/billiard-157924_1280.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <figure>
+        <h1>MADE BY JIDEEH</h1>
+        <div class="eightball">
+            <input type="text"placeholder="What questions do you seek answers to?">
+            <div class="text">
+                <p>ASK EIGHT BALL?</p>
+                <div class="choices">
+                    <a onclick="answer()" class="check">✓</a>
+                    <a onclick="null" class="cross">✗</a>
+                </div>
+            </div>
+            <div class="eball_container">
+                <div class="actual_eball">
+                    <div class="answer">
+                        <p class="answer_text">
+                            Well?<br>What now?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+    
+    <script src="script.js"></script>
+</body>
+</html>
