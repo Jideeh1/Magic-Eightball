@@ -48,6 +48,8 @@ input {
     width: 100%;
     text-align: center;
     align-self: center;
+    font-weight: 700;
+    color: black;
 }
 
 textarea:focus, input:focus{
